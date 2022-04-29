@@ -49,10 +49,10 @@ $ python3 main.py -w glove -sml 20
 # Results Presentation
 
 ``` Word2Vec Loss```  </br>
-![caption](./figures/W2V.jpeg) 
+![caption](./figures/w2v120.jpeg) 
 
 ``` GloVe Loss```  </br>
-![caption](./figures/glove1.jpeg) 
+![caption](./figures/glove220.jpeg) 
 
 # Make prediction #
 
