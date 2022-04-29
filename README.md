@@ -34,16 +34,17 @@ $ pip install -r requirements.txt
 # Training the model #
 
 ```
-$ python3 main.py --model MODEL_NAME --num_epochs
+$ python3 main.py -w word_representation -n num_epochs -max 
+$ python3 main.py -w word_representation -n num_epochs -sml set_max_length
 ```
 ## Example of running models ##
 
 ```
-$ python3 main.py --model resnet --10
+$ python3 main.py -w word2vec -n 100 -max
 ```
 
 ```
-$ python3 main.py --model cnn --10
+$ python3 main.py -w glove -sml 20
 ```
 
 # Results Presentation
@@ -57,7 +58,7 @@ $ python3 main.py --model cnn --10
 # Make prediction #
 
 ```
-$python3 predict.py --image_path "./data/Images/cat.0.jpg"
+$python3 predict.py -w word_reprentation -s sentence
 ```
 
 ``` Example: Result```  </br>
