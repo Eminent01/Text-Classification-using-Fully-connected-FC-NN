@@ -34,8 +34,7 @@ $ pip install -r requirements.txt
 # Training the model #
 
 ```
-$ python3 main.py -w word_representation -n num_epochs -max 
-$ python3 main.py -w word_representation -n num_epochs -sml set_max_length
+$ python3 main.py -w word_representation -n num_epochs [-max] [-sml set_max_length]
 ```
 ## Example of running models ##
 
