@@ -63,7 +63,7 @@ $python3 predict.py -w word_reprentation -s sentence
 
 ``` Example: Result```  </br>
 
-{sentence: "Thank you for your nice presentation" 'predicted class': ''}
+{sentence: "Thank you for your nice presentation" 'predicted class': '4'}
 ---
 ___
 
